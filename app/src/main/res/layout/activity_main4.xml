@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuanxueyuan.baidumap.Main4Activity">
+
+    <Button
+        android:id="@+id/trajectoryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看点击标记效果Demo"/>
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+</RelativeLayout>
